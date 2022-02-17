@@ -1,0 +1,71 @@
+@charset "UTF-8";
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+}
+
+#header {
+    padding: 20px;
+    padding-left: 50px;
+    color: white;
+    background-color: rgb(50,50,50);
+}
+
+#main {
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#results {
+    margin-bottom: 100px;
+    padding: 20px;
+    background-color: rgb(230,230,230);
+    overflow-wrap: break-word;
+}
+
+#store h1 {
+    margin-top: 0px;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: rgb(230,230,230);
+}
+
+#gateway {
+    font-size: 18px;
+}
+
+#gateway button {
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.row {
+    display: flex;
+}
+
+.column-left {
+    flex: 40%;
+}
+
+.column-right {
+    flex: 60%;
+    padding-left: 50px;
+}
+
+img {
+    width: 100%;
+    min-width: 400px;
+    height: auto;
+}
+
+#spaybutton {
+    min-width: 100px;
+    width: revert;
+}
+
